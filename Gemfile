@@ -9,6 +9,9 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
  group :development do
    gem 'sqlite3'
+   gem 'pry-rails'
+   gem 'listen'
+   gem 'web-console', '~> 2.0'
  end
 
  gem 'sass-rails', '~> 5.0'
@@ -16,16 +19,17 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
  gem 'coffee-rails', '~> 4.1.0'
  gem 'jquery-rails'
  gem 'turbolinks'
- gem 'bootstrap'
+ gem 'bootstrap-sass'
  gem 'figaro'
+ gem 'pry'
+ gem 'devise'
+ gem 'pundit'
 
  group :development, :test do
    gem 'byebug'
-   gem 'web-console', '~> 2.0'
    gem 'spring'
    gem 'rspec-rails'
    gem 'shoulda'
    gem 'faker'
    gem 'factory_girl_rails'
-   gem 'pry-rails'
  end
