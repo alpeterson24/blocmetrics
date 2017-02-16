@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.0.1'
 
  group :production do
    gem 'pg'
@@ -21,7 +21,6 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
  gem 'turbolinks'
  gem 'bootstrap-sass'
  gem 'figaro'
- gem 'pry'
  gem 'devise'
  gem 'pundit'
 

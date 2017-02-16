@@ -224,10 +224,9 @@ DEPENDENCIES
   jquery-rails
   listen
   pg
-  pry
   pry-rails
   pundit
-  rails (~> 5.0.0, >= 5.0.0.1)
+  rails (~> 5.0.1)
   rails_12factor
   rspec-rails
   sass-rails (~> 5.0)
