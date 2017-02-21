@@ -1,4 +1,5 @@
 class API::EventsController < ApplicationController
+  skip_before_filter :authenticate_user!
   skip_before_action :verify_authenticity_token
   before_filter :set_access_control_headers
 
@@ -24,7 +25,7 @@ class API::EventsController < ApplicationController
   end
 
   private
-  
+
   def event_params
     params.require(:event).permit(:name)
   end
