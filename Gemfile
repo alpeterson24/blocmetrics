@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.1'
 
  group :production do
-   gem 'pg'
    gem 'rails_12factor'
  end
 
@@ -23,6 +22,9 @@ gem 'rails', '~> 5.0.1'
  gem 'figaro'
  gem 'devise'
  gem 'pundit'
+ gem 'chartkick'
+ gem 'pg'
+ gem 'groupdate'
 
  group :development, :test do
    gem 'byebug'
