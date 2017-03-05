@@ -1,8 +1,8 @@
-## Blocmetrics
-![Screenshot of Blocmetrics]("app/images/Screen Shot.png")
+# Blocmetrics
+[Screenshot of Blocmetrics](app/images/Screen Shot.png)
 Blocmetrics is designed to help businesses monitor their traffic through an easy to use web application. Give it a try!
 
-# How to use
+## How to use
 Register application on [Heroku](https://afternoon-sierra-24638.herokuapp.com/)
 Then place the following Javascript in the application's app/assets/javascripts/application.js file:
 
